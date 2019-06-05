@@ -1,0 +1,36 @@
+#app{
+    background-color: steelblue;
+    height: 100vh;
+    width:100vw;
+}
+
+#sidebar{
+    background-color: deepskyblue;
+    height:90vh;
+}
+
+#page{
+    height:90vh;
+}
+
+#content{
+    background-color: white;
+    height:82vh;
+}
+
+#footer{
+    height:10vh;
+}
+
+#APOD{
+    height:50vh;
+    width:80vh;
+}
+
+#copyright{
+    font-size: 0.7em
+}
+
+#summary{
+    font-size: 0.8em
+}

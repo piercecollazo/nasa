@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Space stuff</title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+<body>
+    <div class="container-fluid" id="app">
+        <!-- main body section -->
+        <div class="row" id="main-body">
+            <!-- For the side menu -->
+            <div class="col-md-3" id="sidebar">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <h4>Navigation</h4>
+                    <p>Astronomy picture of the day!</p>
+                    <p>test item 2</p>
+                    <p>test item 3</p>
+                    <p>test item 4</p>
+                </div>
+            </div>
+            <!-- Where the header and page content go -->
+            <div class="col-md-9" id="page">
+                <div class="row justify-content-center" id="header">
+                    <h1>NASA API Showcase</h1>
+                </div>
+                <div class="row d-flex flex-column align-items-center" id="content">
+                    <img id="APOD">
+                    <p id="copyright">Test content</p>
+                    <p id="summary">Test content</p>
+                </div>
+            </div>
+        </div>
+
+        <!--  Footer area-->
+        <div class="row justify-content-center" id="footer">Alex Collazo</div>
+    </div>
+
+    <!-- ====================================== -->
+    <!-- scripts for both bootstrap and main.js -->
+    <!-- ====================================== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
