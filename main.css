@@ -13,7 +13,12 @@
     height:90vh;
 }
 
-#content{
+#apod-page{
+    background-color: white;
+    height:82vh;
+}
+
+#rover-page{
     background-color: white;
     height:82vh;
 }
@@ -24,6 +29,7 @@
     left: 10vw;
 }
 
+/* APOD page relevant content */
 #APOD{
     height:50vh;
     width:80vh;
@@ -35,4 +41,10 @@
 
 #summary{
     font-size: 0.8em
+}
+
+/* Rover psge relevant content */
+#drone-cam{
+    height: 50vh;
+    width: 70vw;
 }

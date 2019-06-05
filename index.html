@@ -18,8 +18,8 @@
             <div class="col-md-3" id="sidebar">
                 <div class="row d-flex flex-column justify-content-center align-items-center">
                     <h4>Navigation</h4>
-                    <button type="button" class="btn">Astronomy picture of the day!</button>
-                    <button type="button" class="btn">Curiosity Rover</button>
+                    <button type="button" class="btn" id="apod-btn">Astronomy picture of the day!</button>
+                    <button type="button" class="btn" id="rover-btn">Curiosity Rover</button>
                 </div>
             </div>
             <!-- Where the header and page content go -->
@@ -28,15 +28,15 @@
                     <h1>NASA API Showcase</h1>
                 </div>
                 <!-- Home/APOD page -->
-                <div class="row d-flex flex-column align-items-center" id="content">
+                <div class="row d-flex flex-column align-items-center" id="apod-page">
                     <img id="APOD">
                     <p id="copyright">Test content</p>
                     <p id="summary">Test content</p>
                 </div>
                 <!-- Curiosity rover page -->
-                <div class="row d-none">
+                <div class="row d-none" id="rover-page">
                     <h3>Curiosity Martian Drone</h3>
-                    <p>Welcome to the Curiosity Martian rover's gallery. Here you can select from one of the 25 mast camera photos taken per 'sol'(The day cycle of Mars)</p>
+                    <p>Welcome to the Curiosity Martian rover's gallery. Here you can select from one of the 25 mast camera photos taken per 'sol'(The day cycle of Mars)[Full functionality pending]</p>
                     <img id="drone-cam">
                     <p id="ID"></p>
                     <p id="sol"></p>
