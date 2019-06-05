@@ -6,7 +6,7 @@
 
 #sidebar{
     background-color: deepskyblue;
-    height:90vh;
+    height:100vh;
 }
 
 #page{
@@ -19,7 +19,9 @@
 }
 
 #footer{
-    height:10vh;
+    position: relative;
+    bottom: 10vh;
+    left: 10vw;
 }
 
 #APOD{
